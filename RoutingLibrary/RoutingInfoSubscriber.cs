@@ -23,6 +23,7 @@ namespace RoutingLibrary
 
 		async Task UpdateRoutingTable()
 		{
+			//Registering the publisher does not works here when it is implemented in the seperated library 
 			_routerConnectionSettings.RegisterPublisher(Type.GetType("Shared.SQLTransEvent, Shared"), "Samples.Router.MixedTransports.SQLPublisher");
 			await Task.CompletedTask;
 		}

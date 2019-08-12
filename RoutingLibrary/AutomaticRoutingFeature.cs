@@ -14,6 +14,7 @@ namespace RoutingLibrary
 			//Register the routing info subscriber
 			context.RegisterStartupTask(builder => new RoutingInfoSubscriber(_routerConnectionSettings));
 
+			//Registerin the publisher works here when it defined in the feature setup
 			//_routerConnectionSettings.RegisterPublisher(Type.GetType("Shared.SQLTransEvent, Shared"), "Samples.Router.MixedTransports.SQLPublisher");
 
 		}

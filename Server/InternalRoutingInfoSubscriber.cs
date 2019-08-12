@@ -24,6 +24,7 @@ namespace Server
 
 		void UpdateRoutingTable()
 		{
+			//	Registerin the publisher works here when it defined in the same libray
 			_routerConnectionSettings.RegisterPublisher(Type.GetType("Shared.SQLTransEvent, Shared"), "Samples.Router.MixedTransports.SQLPublisher");
 		}
 
