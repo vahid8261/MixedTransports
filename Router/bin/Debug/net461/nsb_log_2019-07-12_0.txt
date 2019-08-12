@@ -1,0 +1,48 @@
+﻿2019-07-12 15:51:29.304 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-07-12 16:09:35.271 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-07-12 16:09:54.465 ERROR Interface Moving poison message to the error queue
+NServiceBus.Router.UnforwardableMessageException: No route for destination Samples.Router.MixedTransports.Client
+   at NServiceBus.Router.RouteTable.GetOutgoingInterface(String incomingInterface, Destination dest)
+   at NServiceBus.Router.RouteTable.<>c__DisplayClass6_0.<GetOutgoingInterfaces>b__0(Destination d)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.<DistinctIterator>d__64`1.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at SendPreroutingTerminator.<Terminate>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at NServiceBus.Router.ChainTerminator`1.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at NServiceBus.Router.TerminatorInvocationRule`1.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at PreroutingToSendPreroutingFork.<Terminate>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1.ConfiguredTaskAwaiter.GetResult()
+   at NServiceBus.Router.ChainTerminator`1.<Invoke>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at NServiceBus.Router.TerminatorInvocationRule`1.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter.GetResult()
+   at ThrottlingRawEndpointConfig`1.<>c__DisplayClass1_0.<<PrepareConfig>b__1>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.<Process>d__29.MoveNext()
+2019-07-12 16:11:43.772 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-07-12 16:51:30.408 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-07-12 16:51:31.128 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.

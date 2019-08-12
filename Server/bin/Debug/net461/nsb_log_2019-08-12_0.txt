@@ -1,0 +1,40 @@
+﻿2019-08-12 16:25:15.487 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-12 16:25:15.778 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 16:25:15.832 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 16:25:16.129 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 16:29:39.709 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-12 16:29:40.169 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 16:29:40.253 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 16:29:40.568 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 18:09:42.926 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Server\bin\Debug\net461\' with level Info
+2019-08-12 18:09:43.248 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 18:09:43.325 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 18:09:43.696 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 18:17:34.529 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Server\bin\Debug\net461\' with level Info
+2019-08-12 18:17:34.971 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 18:17:35.040 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 18:17:35.555 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 18:19:43.558 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Server\bin\Debug\net461\' with level Info
+2019-08-12 18:19:44.034 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 18:19:44.102 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 18:19:44.421 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 18:22:04.011 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Server\bin\Debug\net461\' with level Info
+2019-08-12 18:22:04.409 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 18:22:04.486 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 18:22:04.798 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 18:26:34.893 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Server\bin\Debug\net461\' with level Info
+2019-08-12 18:26:35.416 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 18:26:35.479 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 18:26:35.822 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-12 18:31:36.441 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Server\bin\Debug\net461\' with level Info
+2019-08-12 18:31:36.971 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-12 18:31:37.049 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-12 18:31:37.431 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.

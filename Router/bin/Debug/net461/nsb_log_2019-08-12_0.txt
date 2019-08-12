@@ -1,0 +1,16 @@
+﻿2019-08-12 16:25:13.738 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-12 16:25:14.061 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 16:29:38.577 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-12 16:29:38.983 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 18:09:40.268 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Router\bin\Debug\net461\' with level Info
+2019-08-12 18:09:40.595 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 18:17:33.216 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Router\bin\Debug\net461\' with level Info
+2019-08-12 18:17:33.807 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 18:19:42.512 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Router\bin\Debug\net461\' with level Info
+2019-08-12 18:19:42.805 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 18:22:02.926 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Router\bin\Debug\net461\' with level Info
+2019-08-12 18:22:03.368 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 18:26:33.603 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Router\bin\Debug\net461\' with level Info
+2019-08-12 18:26:33.953 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-12 18:31:35.378 INFO  DefaultFactory Logging to 'C:\Projects\Git\MixedTransport\Router\bin\Debug\net461\' with level Info
+2019-08-12 18:31:35.680 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.

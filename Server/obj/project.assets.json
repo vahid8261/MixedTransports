@@ -1,0 +1,356 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        }
+      },
+      "NServiceBus/7.1.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.RabbitMQ/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.1.6, 8.0.0)",
+          "RabbitMQ.Client": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        }
+      },
+      "NServiceBus.Router.Connector/3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "compile": {
+          "lib/net461/NServiceBus.Router.Connector.dll": {}
+        },
+        "runtime": {
+          "lib/net461/NServiceBus.Router.Connector.dll": {}
+        }
+      },
+      "RabbitMQ.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Diagnostics.Tracing.EventSource.Redist": "1.1.28"
+        },
+        "compile": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        }
+      },
+      "RoutingLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NServiceBus.Router.Connector": "3.5.1"
+        },
+        "compile": {
+          "bin/placeholder/RoutingLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoutingLibrary.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        }
+      },
+      "NServiceBus/7.1.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.RabbitMQ/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.1.6, 8.0.0)",
+          "RabbitMQ.Client": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        }
+      },
+      "NServiceBus.Router.Connector/3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "compile": {
+          "lib/net461/NServiceBus.Router.Connector.dll": {}
+        },
+        "runtime": {
+          "lib/net461/NServiceBus.Router.Connector.dll": {}
+        }
+      },
+      "RabbitMQ.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Diagnostics.Tracing.EventSource.Redist": "1.1.28"
+        },
+        "compile": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        }
+      },
+      "RoutingLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "NServiceBus.Router.Connector": "3.5.1"
+        },
+        "compile": {
+          "bin/placeholder/RoutingLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RoutingLibrary.dll": {}
+        }
+      },
+      "Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "NServiceBus": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+      "sha512": "dhF0FwBC/oQbjN7ph1sq98j/CbVX+Jd6bqSvDoRk4JxMEFw4i7Pjh7JKYa+3lPo2c8aOzJcC0tgSyJOaTeugYQ==",
+      "type": "package",
+      "path": "microsoft.diagnostics.tracing.eventsource.redist/1.1.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "lib/net35/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net35/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/net40/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net40/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/portable-win8+wpa81/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/portable-win8+wpa81/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "microsoft.diagnostics.tracing.eventsource.redist.1.1.28.nupkg.sha512",
+        "microsoft.diagnostics.tracing.eventsource.redist.nuspec"
+      ]
+    },
+    "NServiceBus/7.1.10": {
+      "sha512": "3TbDn6BlbCg/Q+xqVRVXHi/xrDJ0knIdOTeTxH40CbrZwN3BUUiMasDFEGrnN3WOFWfwCSXizFXavkSC5rG0tA==",
+      "type": "package",
+      "path": "nservicebus/7.1.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/NServiceBus.Core.Analyzer.dll",
+        "lib/net452/NServiceBus.Core.dll",
+        "lib/net452/NServiceBus.Core.pdb",
+        "lib/net452/NServiceBus.Core.xml",
+        "lib/netstandard2.0/NServiceBus.Core.dll",
+        "lib/netstandard2.0/NServiceBus.Core.pdb",
+        "lib/netstandard2.0/NServiceBus.Core.xml",
+        "nservicebus.7.1.10.nupkg.sha512",
+        "nservicebus.nuspec",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NServiceBus.RabbitMQ/5.1.2": {
+      "sha512": "7NIQ6lh2lWH3lcKUS9DaXeA/g9ZyeD9P+5Xq2DMSS1HLj3uhaI5bW9vSZQfAjGef7mL1eXh0AYjUDWAT/jfH/g==",
+      "type": "package",
+      "path": "nservicebus.rabbitmq/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/NServiceBus.Transport.RabbitMQ.dll",
+        "lib/net452/NServiceBus.Transport.RabbitMQ.pdb",
+        "lib/net452/NServiceBus.Transport.RabbitMQ.xml",
+        "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.dll",
+        "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.pdb",
+        "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.xml",
+        "nservicebus.rabbitmq.5.1.2.nupkg.sha512",
+        "nservicebus.rabbitmq.nuspec"
+      ]
+    },
+    "NServiceBus.Router.Connector/3.5.1": {
+      "sha512": "MR6PwMSwwfHO+BJjZgs8FNyJXv8dM/MIaCLBUX+pbUeS3G1MaG0yv0mIrYvNiz72kREmHe2VmiA+5ecYLXKe3w==",
+      "type": "package",
+      "path": "nservicebus.router.connector/3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/NServiceBus.Router.Connector.dll",
+        "lib/net461/NServiceBus.Router.Connector.pdb",
+        "lib/net461/NServiceBus.Router.Connector.xml",
+        "lib/netstandard2.0/NServiceBus.Router.Connector.dll",
+        "lib/netstandard2.0/NServiceBus.Router.Connector.pdb",
+        "lib/netstandard2.0/NServiceBus.Router.Connector.xml",
+        "nservicebus.router.connector.3.5.1.nupkg.sha512",
+        "nservicebus.router.connector.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/5.1.0": {
+      "sha512": "6TzFS2nlpiqKX7joVM+ViYY+rtHdYLnXkv2aNsXXJXlEbDhgf1iNBUgelPlgQUpKWoL9yUfMpTroNgEljB2HuA==",
+      "type": "package",
+      "path": "rabbitmq.client/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/RabbitMQ.Client.dll",
+        "lib/net451/RabbitMQ.Client.xml",
+        "lib/netstandard1.5/RabbitMQ.Client.dll",
+        "lib/netstandard1.5/RabbitMQ.Client.xml",
+        "rabbitmq.client.5.1.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "RoutingLibrary/1.0.0": {
+      "type": "project",
+      "path": "../RoutingLibrary/RoutingLibrary.csproj",
+      "msbuildProject": "../RoutingLibrary/RoutingLibrary.csproj"
+    },
+    "Shared/1.0.0": {
+      "type": "project",
+      "path": "../Shared/Shared.csproj",
+      "msbuildProject": "../Shared/Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "NServiceBus.RabbitMQ >= 5.1.2",
+      "NServiceBus.Router.Connector >= 3.5.1",
+      "RoutingLibrary >= 1.0.0",
+      "Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\se-vahmoha-01\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\Git\\MixedTransport\\Server\\Server.csproj",
+      "projectName": "Server",
+      "projectPath": "C:\\Projects\\Git\\MixedTransport\\Server\\Server.csproj",
+      "packagesPath": "C:\\Users\\se-vahmoha-01\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Git\\MixedTransport\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\se-vahmoha-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "http://nuget.ia.corp.svea.com/nuget/nugetorg": {},
+        "http://nuget.ia.corp.svea.com/nuget/svea": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Projects\\Git\\MixedTransport\\RoutingLibrary\\RoutingLibrary.csproj": {
+              "projectPath": "C:\\Projects\\Git\\MixedTransport\\RoutingLibrary\\RoutingLibrary.csproj"
+            },
+            "C:\\Projects\\Git\\MixedTransport\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Projects\\Git\\MixedTransport\\Shared\\Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NServiceBus.RabbitMQ": {
+            "target": "Package",
+            "version": "[5.1.2, )"
+          },
+          "NServiceBus.Router.Connector": {
+            "target": "Package",
+            "version": "[3.5.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

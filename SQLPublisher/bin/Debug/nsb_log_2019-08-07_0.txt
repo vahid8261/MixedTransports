@@ -1,0 +1,78 @@
+﻿2019-08-07 22:36:21.421 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:36:22.257 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:36:22.727 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:36:22.854 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:36:23.658 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:36:23.692 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:36:23.844 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:36:23.873 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:36:23.985 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:37:37.237 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:37:38.422 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:37:38.558 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:37:38.693 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:37:39.506 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:37:39.607 INFO  NServiceBus.Transport.SQLServer.MessagePump 2.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:37:39.777 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:37:39.941 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:37:40.158 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:37:57.470 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:37:58.159 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:37:58.366 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:37:58.518 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:37:59.310 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:37:59.351 INFO  NServiceBus.Transport.SQLServer.MessagePump 1.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:37:59.418 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:37:59.464 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:37:59.569 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:38:23.703 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:38:24.530 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:38:24.729 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:38:24.848 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:38:25.611 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:38:25.679 INFO  NServiceBus.Transport.SQLServer.MessagePump 1.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:38:25.836 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:38:25.950 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:38:26.067 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:39:33.373 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:39:34.162 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:39:34.470 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:39:34.590 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:39:35.465 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:39:35.512 INFO  NServiceBus.Transport.SQLServer.MessagePump 1.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:39:35.612 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:39:35.655 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:39:35.746 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:39:37.059 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from Samples.Router.MixedTransports.Router@[dbo]@[NserviceBusStorage] on message type SQLTransEvent, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2019-08-07 22:39:42.601 INFO  SqlTransCommandHandler SqlTransCommand handler EMCR
+2019-08-07 22:46:32.563 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:46:34.046 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:46:34.258 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:46:34.397 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:46:35.248 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:46:35.326 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:46:35.530 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:46:35.667 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:46:35.887 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:47:11.260 INFO  SqlTransCommandHandler SqlTransCommand handler ATZM
+2019-08-07 22:47:43.670 INFO  SqlTransCommandHandler SqlTransCommand handler BVHM
+2019-08-07 22:49:36.299 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\SQLPublisher\bin\Debug\' with level Info
+2019-08-07 22:49:37.314 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-07 22:49:37.575 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-07 22:49:37.800 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-07 22:49:38.511 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-07 22:49:38.539 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:49:38.617 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.Timeouts@[dbo]@[NserviceBusStorage]
+2019-08-07 22:49:38.668 INFO  NServiceBus.Transport.SQLServer.MessagePump 0.00 messages purged from queue Samples.Router.MixedTransports.SQLPublisher.TimeoutsDispatcher@[dbo]@[NserviceBusStorage]
+2019-08-07 22:49:38.801 WARN  DelayedDeliveryInfrastructure Current configuration of the endpoint uses the TimeoutManager feature for delayed delivery - an option which is not recommended for new deployments. SqlTransport native delayed delivery should be used instead. It can be enabled by calling `UseNativeDelayedDelivery()`.
+2019-08-07 22:49:43.954 INFO  NServiceBus.SubscriptionReceiverBehavior Subscribe from Samples.Router.MixedTransports.Router@[dbo]@[NserviceBusStorage] on message type SQLTransEvent, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2019-08-07 22:49:56.225 INFO  SqlTransCommandHandler SqlTransCommand handler VANK
+2019-08-07 22:50:12.020 INFO  SqlTransCommandHandler SqlTransCommand handler TLAM
+2019-08-07 22:50:13.553 INFO  SqlTransCommandHandler SqlTransCommand handler IEMU

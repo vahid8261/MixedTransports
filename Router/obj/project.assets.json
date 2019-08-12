@@ -1,0 +1,606 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        }
+      },
+      "NServiceBus/7.1.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.RabbitMQ/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.1.6, 8.0.0)",
+          "RabbitMQ.Client": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        }
+      },
+      "NServiceBus.Raw/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "7.0.0"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Raw.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Raw.dll": {}
+        }
+      },
+      "NServiceBus.Router/3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)",
+          "NServiceBus.Raw": "[3.0.1, 4.0.0)",
+          "System.Data.SqlClient": "4.4.3",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NServiceBus.Router.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NServiceBus.Router.dll": {}
+        }
+      },
+      "NServiceBus.SqlServer/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.1.6, 8.0.0)",
+          "System.Data.SqlClient": "4.4.3"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Transport.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.SqlServer.dll": {}
+        }
+      },
+      "NServiceBus.Transport.Msmq/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System.Messaging"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Transport.Msmq.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.Msmq.dll": {}
+        },
+        "build": {
+          "build/NServiceBus.Transport.Msmq.props": {}
+        }
+      },
+      "RabbitMQ.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Diagnostics.Tracing.EventSource.Redist": "1.1.28"
+        },
+        "compile": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.4.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/net461/System.Data.SqlClient.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win7-x86": {
+      "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        }
+      },
+      "NServiceBus/7.1.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      },
+      "NServiceBus.RabbitMQ/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.1.6, 8.0.0)",
+          "RabbitMQ.Client": "[5.1.0, 6.0.0)"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.RabbitMQ.dll": {}
+        }
+      },
+      "NServiceBus.Raw/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "7.0.0"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Raw.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Raw.dll": {}
+        }
+      },
+      "NServiceBus.Router/3.5.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)",
+          "NServiceBus.Raw": "[3.0.1, 4.0.0)",
+          "System.Data.SqlClient": "4.4.3",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NServiceBus.Router.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NServiceBus.Router.dll": {}
+        }
+      },
+      "NServiceBus.SqlServer/4.1.3": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.1.6, 8.0.0)",
+          "System.Data.SqlClient": "4.4.3"
+        },
+        "compile": {
+          "lib/net452/NServiceBus.Transport.SqlServer.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.SqlServer.dll": {}
+        }
+      },
+      "NServiceBus.Transport.Msmq/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "NServiceBus": "[7.0.0, 8.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System.Messaging"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Transport.Msmq.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Transport.Msmq.dll": {}
+        },
+        "build": {
+          "build/NServiceBus.Transport.Msmq.props": {}
+        }
+      },
+      "RabbitMQ.Client/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Diagnostics.Tracing.EventSource.Redist": "1.1.28"
+        },
+        "compile": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RabbitMQ.Client.dll": {}
+        }
+      },
+      "System.Data.SqlClient/4.4.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Data.SqlClient.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Data.SqlClient.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+      "sha512": "dhF0FwBC/oQbjN7ph1sq98j/CbVX+Jd6bqSvDoRk4JxMEFw4i7Pjh7JKYa+3lPo2c8aOzJcC0tgSyJOaTeugYQ==",
+      "type": "package",
+      "path": "microsoft.diagnostics.tracing.eventsource.redist/1.1.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License-Stable.rtf",
+        "lib/net35/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net35/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/net40/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net40/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/portable-win8+wpa81/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/portable-win8+wpa81/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "microsoft.diagnostics.tracing.eventsource.redist.1.1.28.nupkg.sha512",
+        "microsoft.diagnostics.tracing.eventsource.redist.nuspec"
+      ]
+    },
+    "NServiceBus/7.1.10": {
+      "sha512": "3TbDn6BlbCg/Q+xqVRVXHi/xrDJ0knIdOTeTxH40CbrZwN3BUUiMasDFEGrnN3WOFWfwCSXizFXavkSC5rG0tA==",
+      "type": "package",
+      "path": "nservicebus/7.1.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/NServiceBus.Core.Analyzer.dll",
+        "lib/net452/NServiceBus.Core.dll",
+        "lib/net452/NServiceBus.Core.pdb",
+        "lib/net452/NServiceBus.Core.xml",
+        "lib/netstandard2.0/NServiceBus.Core.dll",
+        "lib/netstandard2.0/NServiceBus.Core.pdb",
+        "lib/netstandard2.0/NServiceBus.Core.xml",
+        "nservicebus.7.1.10.nupkg.sha512",
+        "nservicebus.nuspec",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "NServiceBus.RabbitMQ/5.1.2": {
+      "sha512": "7NIQ6lh2lWH3lcKUS9DaXeA/g9ZyeD9P+5Xq2DMSS1HLj3uhaI5bW9vSZQfAjGef7mL1eXh0AYjUDWAT/jfH/g==",
+      "type": "package",
+      "path": "nservicebus.rabbitmq/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/NServiceBus.Transport.RabbitMQ.dll",
+        "lib/net452/NServiceBus.Transport.RabbitMQ.pdb",
+        "lib/net452/NServiceBus.Transport.RabbitMQ.xml",
+        "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.dll",
+        "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.pdb",
+        "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.xml",
+        "nservicebus.rabbitmq.5.1.2.nupkg.sha512",
+        "nservicebus.rabbitmq.nuspec"
+      ]
+    },
+    "NServiceBus.Raw/3.0.1": {
+      "sha512": "QQ0t7m7FW/QnxM6ralwb1R2F6Jo1Zj6egaJN8zymq0YX8CO+aLzP0QZoVZGK5hygFTCo8dF4mypl3kV0DOTZmA==",
+      "type": "package",
+      "path": "nservicebus.raw/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/NServiceBus.Raw.dll",
+        "lib/net452/NServiceBus.Raw.pdb",
+        "lib/net452/NServiceBus.Raw.xml",
+        "lib/netstandard2.0/NServiceBus.Raw.dll",
+        "lib/netstandard2.0/NServiceBus.Raw.pdb",
+        "lib/netstandard2.0/NServiceBus.Raw.xml",
+        "nservicebus.raw.3.0.1.nupkg.sha512",
+        "nservicebus.raw.nuspec"
+      ]
+    },
+    "NServiceBus.Router/3.5.1": {
+      "sha512": "D3p6yOiDlB4Ts9L+VJa9PjjsdgNjHTivJo8BsTdtuwjtrp5CV+8XjF98Dc9+MG4YcvAnaHLzrqEW1nIVm0HNBw==",
+      "type": "package",
+      "path": "nservicebus.router/3.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NServiceBus.Router.dll",
+        "lib/netstandard2.0/NServiceBus.Router.pdb",
+        "lib/netstandard2.0/NServiceBus.Router.xml",
+        "nservicebus.router.3.5.1.nupkg.sha512",
+        "nservicebus.router.nuspec"
+      ]
+    },
+    "NServiceBus.SqlServer/4.1.3": {
+      "sha512": "d2ExGa1qNWI/y6ft4BYE8FWHBQsDPWXkE+sYvzuXTOPIZ7EPJpKJrCY7jNSj1swKSHM/7iBhscX+Fr/HZj+daA==",
+      "type": "package",
+      "path": "nservicebus.sqlserver/4.1.3",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net452/NServiceBus.Transport.SqlServer.dll",
+        "lib/net452/NServiceBus.Transport.SqlServer.pdb",
+        "lib/net452/NServiceBus.Transport.SqlServer.xml",
+        "lib/netstandard2.0/NServiceBus.Transport.SqlServer.dll",
+        "lib/netstandard2.0/NServiceBus.Transport.SqlServer.pdb",
+        "lib/netstandard2.0/NServiceBus.Transport.SqlServer.xml",
+        "nservicebus.sqlserver.4.1.3.nupkg.sha512",
+        "nservicebus.sqlserver.nuspec"
+      ]
+    },
+    "NServiceBus.Transport.Msmq/1.0.1": {
+      "sha512": "fOaXutfClWAHAkT2vMeuhZ4AbVwKsISovnqQoFIoza0zdxpLH9PMvXj8NAGQtGCQEjqTttIWsALfxs3oxDgn+A==",
+      "type": "package",
+      "path": "nservicebus.transport.msmq/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "build/CreateQueues.ps1",
+        "build/DeleteQueues.ps1",
+        "build/NServiceBus.Transport.Msmq.props",
+        "lib/net452/NServiceBus.Transport.Msmq.dll",
+        "lib/net452/NServiceBus.Transport.Msmq.pdb",
+        "lib/net452/NServiceBus.Transport.Msmq.xml",
+        "nservicebus.transport.msmq.1.0.1.nupkg.sha512",
+        "nservicebus.transport.msmq.nuspec"
+      ]
+    },
+    "RabbitMQ.Client/5.1.0": {
+      "sha512": "6TzFS2nlpiqKX7joVM+ViYY+rtHdYLnXkv2aNsXXJXlEbDhgf1iNBUgelPlgQUpKWoL9yUfMpTroNgEljB2HuA==",
+      "type": "package",
+      "path": "rabbitmq.client/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net451/RabbitMQ.Client.dll",
+        "lib/net451/RabbitMQ.Client.xml",
+        "lib/netstandard1.5/RabbitMQ.Client.dll",
+        "lib/netstandard1.5/RabbitMQ.Client.xml",
+        "rabbitmq.client.5.1.0.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "System.Data.SqlClient/4.4.3": {
+      "sha512": "D1hEOS1oPLJ6WcGCzpTWe8SauWVxnDoDTUWhv5XCNdRm/QeSUk4BQ3ZDe7BH+zNVHDBkPYjVzpVjnCl43eOSGg==",
+      "type": "package",
+      "path": "system.data.sqlclient/4.4.3",
+      "files": [
+        ".nupkg.metadata",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.SqlClient.dll",
+        "lib/net46/System.Data.SqlClient.dll",
+        "lib/net461/System.Data.SqlClient.dll",
+        "lib/netstandard1.2/System.Data.SqlClient.dll",
+        "lib/netstandard1.3/System.Data.SqlClient.dll",
+        "lib/netstandard2.0/System.Data.SqlClient.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.SqlClient.dll",
+        "ref/net46/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.dll",
+        "ref/net461/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/System.Data.SqlClient.dll",
+        "ref/netstandard1.2/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/System.Data.SqlClient.dll",
+        "ref/netstandard1.3/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/de/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/es/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/fr/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/it/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ja/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ko/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/ru/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hans/System.Data.SqlClient.xml",
+        "ref/netstandard1.3/zh-hant/System.Data.SqlClient.xml",
+        "ref/netstandard2.0/System.Data.SqlClient.dll",
+        "ref/netstandard2.0/System.Data.SqlClient.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/unix/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net451/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net46/System.Data.SqlClient.dll",
+        "runtimes/win/lib/net461/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard1.3/System.Data.SqlClient.dll",
+        "runtimes/win/lib/netstandard2.0/System.Data.SqlClient.dll",
+        "system.data.sqlclient.4.4.3.nupkg.sha512",
+        "system.data.sqlclient.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit/4.3.0": {
+      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "type": "package",
+      "path": "system.reflection.emit/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/net45/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/xamarinmac20/_._",
+        "system.reflection.emit.4.3.0.nupkg.sha512",
+        "system.reflection.emit.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "NServiceBus >= 7.*",
+      "NServiceBus.RabbitMQ >= 5.*",
+      "NServiceBus.Raw >= 3.*",
+      "NServiceBus.Router >= 3.*",
+      "NServiceBus.SqlServer >= 4.1.3",
+      "NServiceBus.Transport.Msmq >= 1.*",
+      "RabbitMQ.Client >= 5.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\se-vahmoha-01\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\Git\\MixedTransport\\Router\\Router.csproj",
+      "projectName": "Router",
+      "projectPath": "C:\\Projects\\Git\\MixedTransport\\Router\\Router.csproj",
+      "packagesPath": "C:\\Users\\se-vahmoha-01\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Git\\MixedTransport\\Router\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\se-vahmoha-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "http://nuget.ia.corp.svea.com/nuget/nugetorg": {},
+        "http://nuget.ia.corp.svea.com/nuget/svea": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NServiceBus": {
+            "target": "Package",
+            "version": "[7.*, )"
+          },
+          "NServiceBus.RabbitMQ": {
+            "target": "Package",
+            "version": "[5.*, )"
+          },
+          "NServiceBus.Raw": {
+            "target": "Package",
+            "version": "[3.*, )"
+          },
+          "NServiceBus.Router": {
+            "target": "Package",
+            "version": "[3.*, )"
+          },
+          "NServiceBus.SqlServer": {
+            "target": "Package",
+            "version": "[4.1.3, )"
+          },
+          "NServiceBus.Transport.Msmq": {
+            "target": "Package",
+            "version": "[1.*, )"
+          },
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[5.*, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

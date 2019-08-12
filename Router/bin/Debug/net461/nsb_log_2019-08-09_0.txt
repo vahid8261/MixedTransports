@@ -1,0 +1,85 @@
+﻿2019-08-09 18:20:13.585 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:20:14.254 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 18:21:19.929 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:21:20.424 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 18:21:43.536 WARN  RabbitMQ.Client.IConnection 'Publish' connection shutdown: AMQP close-reason, initiated by Library, code=0, text="End of stream", classId=0, methodId=0, cause=System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Write(Byte[] buffer)
+   at RabbitMQ.Client.Framing.Impl.Connection.HeartbeatWriteTimerCallback(Object state)
+2019-08-09 18:21:43.541 WARN  RabbitMQ.Client.IConnection 'Samples.Router.MixedTransports.Router MessagePump' connection shutdown: AMQP close-reason, initiated by Library, code=0, text="End of stream", classId=0, methodId=0, cause=System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Write(Byte[] buffer)
+   at RabbitMQ.Client.Framing.Impl.Connection.HeartbeatWriteTimerCallback(Object state)
+2019-08-09 18:21:43.562 INFO  NServiceBus.Transport.RabbitMQ.ChannelProvider Attempting to reconnect in 10 seconds.
+2019-08-09 18:21:43.568 WARN  NServiceBus.Transport.RabbitMQ.MessagePumpConnectionFailedCircuitBreaker The circuit breaker for 'Samples.Router.MixedTransports.Router MessagePump' is now in the armed state
+2019-08-09 18:21:53.531 INFO  NServiceBus.Transport.RabbitMQ.MessagePumpConnectionFailedCircuitBreaker The circuit breaker for 'Samples.Router.MixedTransports.Router MessagePump' is now disarmed
+2019-08-09 18:21:53.579 INFO  NServiceBus.Transport.RabbitMQ.ChannelProvider Connection to the broker reestablished successfully.
+2019-08-09 18:23:16.100 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:23:16.553 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 18:32:54.438 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:32:55.167 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 18:33:20.443 WARN  RabbitMQ.Client.IConnection 'Publish' connection shutdown: AMQP close-reason, initiated by Library, code=0, text="End of stream", classId=0, methodId=0, cause=System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Write(Byte[] buffer)
+   at RabbitMQ.Client.Framing.Impl.Connection.HeartbeatWriteTimerCallback(Object state)
+2019-08-09 18:33:20.469 FATAL NServiceBus.Raw.StartableRawEndpoint Receiver failed to start.
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.Write(Byte[] buffer)
+   at RabbitMQ.Client.Framing.Impl.Connection.StartAndTune()
+   at RabbitMQ.Client.Framing.Impl.Connection.Open(Boolean insist)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IFrameHandler fh)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at NServiceBus.Transport.RabbitMQ.ConnectionFactory.CreateConnection(String connectionName, Boolean automaticRecoveryEnabled)
+   at NServiceBus.Transport.RabbitMQ.MessagePump.Start(PushRuntimeSettings limitations)
+   at NServiceBus.Raw.RawTransportReceiver.Start()
+   at NServiceBus.Raw.StartableRawEndpoint.StartReceiver(RawTransportReceiver receiver)
+2019-08-09 18:33:20.513 INFO  NServiceBus.Transport.RabbitMQ.ChannelProvider Attempting to reconnect in 10 seconds.
+2019-08-09 18:38:11.088 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:38:11.520 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 18:40:03.780 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:40:04.062 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 18:50:51.934 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 18:50:52.612 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:19:32.071 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:19:32.550 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:19:56.351 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:19:56.609 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:21:42.289 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:21:42.688 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:24:28.523 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:24:28.775 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:25:36.544 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:25:36.882 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:32:02.206 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:32:02.591 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:34:07.869 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:34:08.505 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:35:35.238 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:35:35.635 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:37:02.165 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:37:02.476 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:37:29.744 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:37:30.194 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:38:19.460 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:38:19.865 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 20:39:58.451 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 20:39:58.747 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 21:24:25.033 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 21:24:25.558 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 21:24:36.101 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 21:24:36.594 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 21:31:27.788 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 21:31:28.299 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.
+2019-08-09 21:33:20.666 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Router\bin\Debug\net461\' with level Info
+2019-08-09 21:33:20.927 WARN  NServiceBus.Transport.SQLServer.SqlConnectionFactory Maximum connection pooling value (Max Pool Size=N) is not configured on the provided connection string. The default value (100) will be used.

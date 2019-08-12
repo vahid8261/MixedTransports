@@ -1,0 +1,6 @@
+﻿2019-07-31 16:20:25.955 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-07-31 16:20:26.940 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-07-31 16:20:27.158 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-07-31 16:20:27.960 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-07-31 16:20:44.031 INFO  MyMessageHandler Request MZBK

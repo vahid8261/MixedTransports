@@ -1,0 +1,114 @@
+﻿2019-08-09 18:20:23.496 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:20:23.787 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:20:23.846 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:20:24.170 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 18:21:21.642 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:21:30.198 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:21:30.259 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:21:30.591 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 18:23:17.694 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:23:25.383 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:23:25.894 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:23:26.247 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 18:32:55.915 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:32:56.432 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:32:56.555 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:38:11.648 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:38:12.121 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:38:12.247 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:38:12.617 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 18:40:04.132 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:40:04.653 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:40:04.724 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:40:05.048 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 18:50:52.855 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 18:50:53.491 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 18:50:53.647 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 18:50:54.231 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:19:34.504 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:19:34.893 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:19:34.998 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:19:35.354 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:19:56.999 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:19:57.559 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:19:57.643 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:19:58.036 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:21:43.389 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:21:43.756 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:21:43.816 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:21:44.168 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:24:29.334 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:24:29.809 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:24:29.869 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:24:30.247 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:25:37.469 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:25:37.921 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:25:37.976 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:25:38.333 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:32:03.759 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:32:04.091 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:32:04.174 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:32:04.528 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:34:09.287 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:34:09.618 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:34:09.675 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:34:09.972 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:35:36.234 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:35:36.686 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:35:36.751 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:35:37.047 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:37:03.195 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:37:03.641 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:37:03.712 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:37:04.016 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:37:31.317 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:37:31.683 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:37:31.742 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:37:32.034 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:38:20.516 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:38:20.853 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:38:20.915 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:38:21.250 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 20:39:59.417 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 20:39:59.832 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 20:39:59.896 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 20:40:00.193 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 21:24:27.054 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 21:24:27.417 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 21:24:27.484 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 21:24:27.794 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 21:24:37.608 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 21:24:37.990 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 21:24:38.050 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 21:24:38.394 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 21:31:29.093 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 21:31:29.479 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 21:31:29.539 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 21:31:29.841 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-09 21:33:21.645 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-09 21:33:22.097 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-09 21:33:22.186 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-09 21:33:22.506 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.

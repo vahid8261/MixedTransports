@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "NServiceBus/7.1.10": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Security",
+          "System.Transactions"
+        ],
+        "compile": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net452/NServiceBus.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NServiceBus/7.1.10": {
+      "sha512": "3TbDn6BlbCg/Q+xqVRVXHi/xrDJ0knIdOTeTxH40CbrZwN3BUUiMasDFEGrnN3WOFWfwCSXizFXavkSC5rG0tA==",
+      "type": "package",
+      "path": "nservicebus/7.1.10",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/NServiceBus.Core.Analyzer.dll",
+        "lib/net452/NServiceBus.Core.dll",
+        "lib/net452/NServiceBus.Core.pdb",
+        "lib/net452/NServiceBus.Core.xml",
+        "lib/netstandard2.0/NServiceBus.Core.dll",
+        "lib/netstandard2.0/NServiceBus.Core.pdb",
+        "lib/netstandard2.0/NServiceBus.Core.xml",
+        "nservicebus.7.1.10.nupkg.sha512",
+        "nservicebus.nuspec",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "NServiceBus >= 7.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\se-vahmoha-01\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Projects\\Git\\MixedTransport\\Shared\\Shared.csproj",
+      "projectName": "Shared",
+      "projectPath": "C:\\Projects\\Git\\MixedTransport\\Shared\\Shared.csproj",
+      "packagesPath": "C:\\Users\\se-vahmoha-01\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\Git\\MixedTransport\\Shared\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\se-vahmoha-01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "http://nuget.ia.corp.svea.com/nuget/nugetorg": {},
+        "http://nuget.ia.corp.svea.com/nuget/svea": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NServiceBus": {
+            "target": "Package",
+            "version": "[7.*, )"
+          }
+        }
+      }
+    }
+  }
+}

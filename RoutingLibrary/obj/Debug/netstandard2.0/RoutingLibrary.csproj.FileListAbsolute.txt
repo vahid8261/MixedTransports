@@ -1,0 +1,9 @@
+C:\Projects\Git\MixedTransport\RoutingLibrary\bin\Debug\netstandard2.0\RoutingLibrary.deps.json
+C:\Projects\Git\MixedTransport\RoutingLibrary\bin\Debug\netstandard2.0\RoutingLibrary.dll
+C:\Projects\Git\MixedTransport\RoutingLibrary\bin\Debug\netstandard2.0\RoutingLibrary.pdb
+C:\Projects\Git\MixedTransport\RoutingLibrary\obj\Debug\netstandard2.0\RoutingLibrary.csprojAssemblyReference.cache
+C:\Projects\Git\MixedTransport\RoutingLibrary\obj\Debug\netstandard2.0\RoutingLibrary.csproj.CoreCompileInputs.cache
+C:\Projects\Git\MixedTransport\RoutingLibrary\obj\Debug\netstandard2.0\RoutingLibrary.AssemblyInfoInputs.cache
+C:\Projects\Git\MixedTransport\RoutingLibrary\obj\Debug\netstandard2.0\RoutingLibrary.AssemblyInfo.cs
+C:\Projects\Git\MixedTransport\RoutingLibrary\obj\Debug\netstandard2.0\RoutingLibrary.dll
+C:\Projects\Git\MixedTransport\RoutingLibrary\obj\Debug\netstandard2.0\RoutingLibrary.pdb

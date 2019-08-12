@@ -1,0 +1,62 @@
+﻿2019-08-08 19:37:22.760 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:37:24.644 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:37:25.018 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:37:26.206 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-08 19:37:49.104 INFO  SQLTransEventHandler SQLTransEvent handler DETY
+2019-08-08 19:41:33.760 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:41:34.421 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:41:34.686 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:41:35.396 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-08 19:43:14.933 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:43:15.372 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:43:15.489 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:43:15.971 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-08 19:45:51.192 WARN  RabbitMQ.Client.IConnection 'Publish' connection shutdown: AMQP close-reason, initiated by Library, code=541, text="Unexpected Exception", classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(NetworkBinaryReader reader)
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2019-08-08 19:45:51.248 INFO  NServiceBus.Transport.RabbitMQ.ChannelProvider Attempting to reconnect in 10 seconds.
+2019-08-08 19:45:51.274 ERROR NServiceBus.Features.AutoSubscribe AutoSubscribe was unable to subscribe to event 'SQLTransEvent': Already closed: The AMQP operation was interrupted: AMQP close-reason, initiated by Library, code=541, text="Unexpected Exception", classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.InboundFrame.ReadFrom(NetworkBinaryReader reader)
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoopIteration()
+   at RabbitMQ.Client.Framing.Impl.Connection.MainLoop()
+2019-08-08 19:46:01.274 INFO  NServiceBus.Transport.RabbitMQ.ChannelProvider Connection to the broker reestablished successfully.
+2019-08-08 19:46:37.327 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:46:37.822 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:46:37.957 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:46:38.520 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-08 19:46:52.443 INFO  MyMessageHandler Request BUAB
+2019-08-08 19:50:32.587 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:50:33.217 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:50:37.619 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:50:48.723 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-08 19:51:52.183 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:51:52.845 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:52:00.982 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:52:16.447 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 19:52:17.148 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 19:52:17.351 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 19:52:17.894 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
+2019-08-08 19:52:29.311 INFO  MyMessageHandler Request DHDV
+2019-08-08 20:04:15.229 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 20:04:15.924 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 20:04:16.074 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 20:10:21.159 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 20:10:57.837 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 20:11:13.617 INFO  DefaultFactory Logging to 'C:\Projects\Git\docs.particular\samples\router\mixed-transports\Router_3\Server\bin\Debug\net461\' with level Info
+2019-08-08 20:11:14.304 INFO  NServiceBus.Features.Audit Auditing processed messages to 'audit'
+2019-08-08 20:11:14.396 INFO  NServiceBus.LicenseManager Selected active license from C:\Users\se-vahmoha-01\AppData\Local\ParticularSoftware\license.xml
+
+2019-08-08 20:11:20.294 WARN  NServiceBus.ReceiveComponent All queues owned by the endpoint will be purged on startup.
